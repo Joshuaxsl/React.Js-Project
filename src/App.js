@@ -6,20 +6,16 @@ import Projects from "./components/Projects";
 import Tech from "./components/Tech";
 import Contacts from "./components/Contacts";
 
+
 function App() {
   return (
-    <div>
-      <header>
-        <Navbar></Navbar>
-      </header>
-
-      <main className="px-40">
-        <Introduction></Introduction>
-        <About></About>
-        <Projects></Projects>
-        <Tech></Tech>
-        <Contacts></Contacts>
-      </main>
+    <div className="bg-[#205161]">
+        <Navbar/>
+        <Introduction/>
+        <About/>
+        <Projects/>
+        <Tech />
+        <Contacts/>
     </div>
   );
 }
