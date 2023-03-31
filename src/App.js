@@ -1,21 +1,20 @@
-import React  from "react"
+import React from "react";
 import Navbar from "./components/Navbar";
-import Introduction from "./components/Introduction";
+import Homepage from "./components/Homepage";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Tech from "./components/Tech";
-import Contacts from "./components/Contacts";
-
 
 function App() {
   return (
-    <div className="bg-[#205161]">
-        <Navbar/>
-        <Introduction/>
-        <About/>
+    <div className="bg-[#232932] xl:px-40 lg:px-30 md:px-20 px-5">
+      <div>
+        <Navbar />
+      </div>
+      <div className="xl:px-40 lg:px-30 ">
+        <Homepage />
+        <About />
         <Projects/>
-        <Tech />
-        <Contacts/>
+      </div>
     </div>
   );
 }

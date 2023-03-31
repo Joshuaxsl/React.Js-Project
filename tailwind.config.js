@@ -29,6 +29,9 @@ module.exports = {
         'gray-light': '#d3dce6',
         'blacklight':'rgb(41, 40, 39)',
         'Skill-bg':'rgb(23, 23, 22)',
+      },
+      backgroundImage: {
+        'first-project': "url('/src/components/images/project1.jpg')",
       }
     },
   },
